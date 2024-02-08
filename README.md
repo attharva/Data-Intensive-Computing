@@ -110,6 +110,6 @@ and understand the data from multiple perspectives, providing a comprehensive ov
 New York Airbnb market.
 
 Part 3
-EXPLORATORY ANALYSIS
+EXPLORATORY ANALYSIS,
 MODELS FOR CLUSTERING AND PREDICTION
 
