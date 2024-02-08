@@ -1,8 +1,8 @@
 Diving into New York’s AIRBNB: More than just numbers
 
 PROJECT REPORT (CSE 587)
-Anuj Vadecha 
-Sowmya Iyer 
+Anuj Vadecha | 
+Sowmya Iyer |
 Atharva Kulkarni 
 
 
