@@ -5,7 +5,6 @@ Anuj Vadecha |
 Sowmya Iyer |
 Atharva Kulkarni 
 
-
 Introduction
 PART 1 : PROBLEM STATEMENT
 Background
@@ -14,7 +13,6 @@ course, the pizza. Every year, millions flock to the city, and many, like me, pr
 traditional hotels. Given the city's magnetic pull and Airbnb's growing clout, I wanted to
 understand how the two dance together. Plus, for anyone thinking of hosting their place on
 Airbnb, wouldn't it be cool to know how to set the right price or what guests really care about?
-
 
 Problem
 Every time I've traveled, I've been faced with a common question: hotel or Airbnb? And more
@@ -25,7 +23,6 @@ to delve deep into Airbnb's listings in New York City. I aim to uncover: The pri
 the deal with varying prices across different room types and boroughs? The neighborhood stars:
 Why are some neighborhoods buzzing with listings while others aren’t? Reviews & Pricing: Is
 there a link between how much a place costs and what people say about it?
-
 
 Significance
 Understanding the Airbnb scene in NYC isn't just about data. It's about stories, experiences,
@@ -84,3 +81,35 @@ computational intensity. This will save the model automatically as airbnb_price_
 Launch the application
 Launch the app by running the following command in the terminal:
 streamlit run app_name.py
+
+Navigating the Interface
+The app interface includes
+
+Data Upload Section To upload the Airbnb dataset.
+The app requires the New York Airbnb dataset in CSV or TXT format. Ensure the dataset
+includes columns for price, number of reviews, neighborhood, and room type. You can use the
+drag-and-drop feature in the data upload section to upload the Airbnb dataset.
+
+Sidebar For user inputs and controls.
+The sidebar in the app provides various controls that allow users to filter and analyze the data
+according to their preferences:
+• Minimum Price This slider sets the lower limit for the price range of the listings to be included
+in the analysis.
+• Maximum Price This slider sets the upper limit for the price range.
+• Minimum Reviews Users can set a threshold for the minimum number of reviews a listing
+should have to be included. This helps in focusing on more popular or frequently reviewed
+listings.
+• Minimum Nights This option allows users to filter listings based on the minimum number of
+nights required for a stay.
+• Neighborhood Groups Users can select or deselect any of the five NYC islands (Manhattan,
+Brooklyn, Queens, The Bronx, Staten Island) to include or exclude them from the analysis.
+This feature allows for a more targeted examination of specific areas.
+These controls are interactive and the visualizations and analyses in the app will update in real-
+time based on the user’s selections and inputs. This dynamic feature enables users to explore
+and understand the data from multiple perspectives, providing a comprehensive overview of the
+New York Airbnb market.
+
+Part 3
+EXPLORATORY ANALYSIS
+MODELS FOR CLUSTERING AND PREDICTION
+
